@@ -207,7 +207,6 @@ const Product: SchemaTypeDefinition = {
   preview: {
     select: {
       title: 'productName.en',
-      subtitle: 'categories',
       media: 'productPicture',
     },
   },
